@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-title{
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+
+.main-form{
+    height: 120px;
+    width: 45%;
+    margin: 100px auto;
+    border: 1px solid #999;
+    box-shadow: 1px 1px 0px #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

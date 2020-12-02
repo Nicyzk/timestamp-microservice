@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <%- include('./includes/header.ejs') %>
+    <form class="main-form" action="/api/timestamp" method="POST">
+        <div>
+            <label for="date-input">Please submit a valid date string:</label>
+            <input id="date-input" name="dateString" type="text">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
