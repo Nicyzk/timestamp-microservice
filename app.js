@@ -25,4 +25,4 @@ app.use((req, res, next) => {
     res.status(404).send('<h1>No Page Found</h1>')
 })
 
-app.listen(process.env.PORT)
+app.listen(process.env.PORT || 3000)
