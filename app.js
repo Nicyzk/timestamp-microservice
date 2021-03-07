@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser= require('body-parser')
 const path = require('path')
 const compression = require('compression')
-require('dotenv').config()
+// require('dotenv').config()
 
 const timestampRoutes = require('./routes/timestamp')
 
